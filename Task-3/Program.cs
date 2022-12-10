@@ -21,7 +21,7 @@ bool CheckNumbers(int numM, int numN)
     return true;
 }
 
-// Решил модернизировать код
+// Решил модернизировать код проверки
 
 while (true)
 {
@@ -31,8 +31,7 @@ while (true)
     int m = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите число N: ");
     int n = Convert.ToInt32(Console.ReadLine());
-    CheckNumbers(m, n);
-
+    
     if (CheckNumbers(m, n) == false)
     {
         Console.WriteLine();
